@@ -28,4 +28,10 @@ public class Member {
     public void setGrade(Grade grade) {
         this.grade = grade;
     }
+
+    public Member(Long id, String name, Grade grade) {
+        this.id = id;
+        this.name = name;
+        this.grade = grade;
+    }
 }
